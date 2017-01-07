@@ -1,9 +1,7 @@
 # lane-detection
 Lane and vehicle detection software for an autonomous vehicle
 
-<p>This project is still under development and was built for educational purposes. An application was designed following the model-view-controller architecture to enable multiple autonomous vehicle algorithms to be simulated in different views and to allow th input parameters to be altered in run time e.g. adaptive threshold parameters, coordinates for inverse perspective mapping, number of sample points etc. The code will run slower due to the MVC architecture.</p>
-
-<p>A model-view-controller architecture was utilised so that the project can eventually form an application where different input parameters can be altered e.g. adaptive threshold parameters, coordinates for inverse perspective mapping, number of sample points etc. It will also enable different autonomous vehicle algorithms to be implemented.</p>
+<p>This project is still under development and was built for educational purposes. An application was designed following the model-view-controller architecture to enable multiple autonomous vehicle algorithms to be simulated in different views and to allow the input parameters to be altered in run time e.g. adaptive threshold parameters, coordinates for inverse perspective mapping, number of sample points etc. The code will run slower due to the MVC architecture.</p>
 
 <p><b>main.cpp</b> is the view, <b>laneDetectorController.hpp</b> is the controller for the lane detection and <b>vehicleDetectorController.hpp</b> is the controller for the vehicle detection (both controllers are derived from the base <b>Controller</b> class in <b>controller.hpp</b>).</p>
 
